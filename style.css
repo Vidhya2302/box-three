@@ -1,0 +1,38 @@
+
+body, html{
+    padding: 0;
+    margin: 0;
+    height:100%;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+}
+.boxone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+    height: 550px;
+    width:800px;
+}
+.boxtwo{
+    background-color: black;
+    height:210px;
+    width:150px ;
+    align-items: center;
+    justify-content: center;
+}
+.boxthree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    background-color: orange;
+    height:10px;
+    width:100px;
+    border: solid orange;
+    border-radius: 5px;
+    margin: 10px;
+}
